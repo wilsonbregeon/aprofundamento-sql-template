@@ -7,9 +7,9 @@ DROP TABLE pokemons;
 CREATE TABLE pokemons (
     id INTEGER PRIMARY KEY UNIQUE NOT NULL,
     name TEXT UNIQUE NOT NULL,
-    base_hp INTEGER NOT NULL,
-    base_attack INTEGER NOT NULL,
-    base_defense INTEGER NOT NULL,
+    hp INTEGER NOT NULL,
+    attack INTEGER NOT NULL,
+    defense INTEGER NOT NULL,
     special_attack INTEGER NOT NULL,
     special_defense INTEGER NOT NULL,
     speed INTEGER NOT NULL
@@ -19,9 +19,9 @@ CREATE TABLE pokemons (
 INSERT INTO pokemons (
     id,
     name,
-    base_hp,
-    base_attack,
-    base_defense,
+    hp,
+    attack,
+    defense,
     special_attack,
     special_defense,
     speed
@@ -36,5 +36,8 @@ VALUES
     (7, "squirtle", 44, 48, 65, 50, 64, 43),
     (8, "wartortle", 59, 63, 80, 65, 80, 58),
     (9, "blastoise", 79, 83, 100, 85, 105, 78);
+
+-- Buscar todos os pokemons
+SELECT * FROM pokemons;
 
 -- Práticas
