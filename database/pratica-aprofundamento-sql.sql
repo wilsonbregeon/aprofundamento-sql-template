@@ -1,4 +1,4 @@
--- Conecte o arquivo pratica.db com a extensão MySQL e ative a conexão aqui
+-- Conecte o arquivo pratica-aprofundamento-sql.db com a extensão MySQL e ative a conexão aqui
 
 -- Deletar tabela
 DROP TABLE pokemons;
